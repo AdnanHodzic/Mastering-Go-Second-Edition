@@ -7,8 +7,11 @@ import (
 )
 
 func main() {
-	if len(os.Args) == 1 {
-		fmt.Println("Please give one or more floats.")
+	if len(os.Args) <= 2 {
+		fmt.Println("Please provide 2 numbers.")
+		os.Exit(1)
+	} else if len(os.Args) >= 4 {
+		fmt.Println("You've entered more then 2 numbers.")
 		os.Exit(1)
 	}
 

@@ -16,4 +16,5 @@ func main() {
 
 	io.WriteString(os.Stdout, myString)
 	io.WriteString(os.Stdout, "\n")
+	//fmt.Println(myString)
 }
