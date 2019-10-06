@@ -6,7 +6,7 @@ import (
 )
 
 func main() {
-	const sL = "\x99\x00ab\x50\x00\x23\x50\x29\x9c"
+	const sL = "\x99\x00ab\x50\x00\x23\x50\x29\x9c\x99"
 
 	for i := 0; i < len(sL); i++ {
 		if unicode.IsPrint(rune(sL[i])) {

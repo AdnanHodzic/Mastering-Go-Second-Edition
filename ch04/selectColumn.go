@@ -1,3 +1,4 @@
+// file reader, return column from 2 files
 package main
 
 import (

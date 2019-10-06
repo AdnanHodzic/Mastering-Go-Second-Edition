@@ -7,10 +7,12 @@ import (
 func main() {
 	for i := 0; i < 100; i++ {
 		if i%20 == 0 {
+			fmt.Println("Continued ...", i%20 == 0)
 			continue
 		}
 
 		if i == 95 {
+			fmt.Println("Breaking ...", i == 95)
 			break
 		}
 
